@@ -2,7 +2,7 @@ import { defineField, defineType } from "sanity";
 import { TableWidget } from "@/app/components/widgets/TableWidget";
 import { LuTable } from "react-icons/lu";
 
-export const table = defineType({
+export default defineType({
   name: "customTable",
   title: "Table",
   type: "object",

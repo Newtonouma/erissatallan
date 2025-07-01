@@ -1,32 +1,15 @@
-import { defineField, defineType } from "sanity";
-import { YoutubeWidget } from "@/app/components/widgets/YoutubeWidget";
-import { FiYoutube } from "react-icons/fi";
+import { defineType } from 'sanity'
 
-export const youtube = defineType({
-  name: "youtube",
-  title: "Youtube",
-  type: "object",
-  icon: FiYoutube,
+export default defineType({
+  name: 'youtube',
+  title: 'YouTube Embed',
+  type: 'object',
   fields: [
-    defineField({
-      name: "title",
-      title: "Title",
-      type: "string",
-      initialValue: "Youtube Video",
-    }),
-    defineField({
-      name: "url",
-      title: "URL",
-      type: "url",
-    }),
-  ],
-  preview: {
-    select: {
-      title: "title",
-      url: "url",
-    },
-  },
-  components: {
-    preview: YoutubeWidget,
-  },
-});
+    {
+      name: 'url',
+      title: 'YouTube URL',
+      type: 'url',
+      validation: Rule => Rule.uri({ scheme: ['https'] })
+    }
+  ]
+})
