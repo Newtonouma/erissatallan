@@ -4,6 +4,8 @@ import { postsQuery } from "@/lib/sanity.query";
 import type { PostType } from "@/types";
 import { sanityFetch } from "@/lib/sanity.client";
 
+export const dynamic = "force-dynamic";
+
 export default async function FeaturedPosts({ params }: { params?: string }) {
   const featuredPosts: PostType[] = await sanityFetch({
     query: postsQuery,

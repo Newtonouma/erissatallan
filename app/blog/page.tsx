@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { Metadata } from "next";
 import { BiDetail } from "react-icons/bi";
 import Posts from "../components/pages/Posts";

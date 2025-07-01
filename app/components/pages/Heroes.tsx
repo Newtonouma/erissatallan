@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { heroesQuery } from "@/lib/sanity.query";
 import { HeroeType } from "@/types";
 import EasterEgg from "../shared/EasterEgg";

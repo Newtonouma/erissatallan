@@ -10,6 +10,8 @@ import { sanityFetch } from "@/lib/sanity.client";
 import { readTime } from "@/app/utils/readTime";
 import { toPlainText } from "@portabletext/react";
 
+export const dynamic = "force-dynamic";
+
 const fallbackImage: string =
   "https://res.cloudinary.com/victoreke/image/upload/v1692608339/victoreke/blog.png";
 
