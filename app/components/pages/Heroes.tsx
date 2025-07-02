@@ -18,7 +18,7 @@ export default async function Heroes() {
       <Slide delay={0.17}>
         <h2 className="text-4xl mb-4 font-bold tracking-tight">Heroes</h2>
         <p className="dark:text-zinc-400 text-zinc-600 max-w-2xl">
-          Figures
+          Figures 
           {/* {" "}
           <RefLink
             href="https://rafa.design"
@@ -27,10 +27,8 @@ export default async function Heroes() {
             Rafael Condo&apos;s
           </RefLink>{" "} */}
           whose academic and entrepreneurial achievements are an inspiration.
-          Curious, daring, and indomitable souls I choose to learn from.{" "}
-          <strong className="font-semibold">
-            (In no particular order)
-          </strong>
+          Curious, daring, and indomitable souls I choose to learn from.
+          (I've met the ones in green!)
         </p>
       </Slide>
 
