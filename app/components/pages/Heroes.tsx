@@ -18,17 +18,18 @@ export default async function Heroes() {
       <Slide delay={0.17}>
         <h2 className="text-4xl mb-4 font-bold tracking-tight">Heroes</h2>
         <p className="dark:text-zinc-400 text-zinc-600 max-w-2xl">
-          Inspired by{" "}
+          Figures
+          {/* {" "}
           <RefLink
             href="https://rafa.design"
             className="dark:text-blue-400 text-blue-500 underline"
           >
             Rafael Condo&apos;s
-          </RefLink>{" "}
-          heroes list, here&apos;s my own curated lineup of code conjurers and
-          digital dynamos that I&apos;m absolutely stoked to meet someday.{" "}
+          </RefLink>{" "} */}
+          whose academic and entrepreneurial achievements are an inspiration.
+          Curious, daring, and indomitable souls I choose to learn from.{" "}
           <strong className="font-semibold">
-            &quot;In no particular order&quot;
+            (In no particular order)
           </strong>
         </p>
       </Slide>
