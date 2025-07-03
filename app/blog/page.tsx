@@ -24,7 +24,8 @@ export default async function Blog() {
     <main className="max-w-7xl mx-auto md:px-16 px-6">
       <PageHeading
         title="Blog"
-        description="Welcome to the curious corner. My blogs are inquisitive, expository, imaginative, and adventurous. Bring your math hat!"
+        description="Welcome to the curious corner. My blogs are inquisitive, expository, imaginative, and adventurous. Bring your math hat!
+                    Due to the technical nature of my articles, links to their PDF versions are provided as they better render the equations and graphical illustrations therein ."
       >
         <Social type="publication" />
       </PageHeading>
